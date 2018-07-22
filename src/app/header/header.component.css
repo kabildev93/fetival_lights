@@ -66,3 +66,34 @@
     transform: translate(0px,0px);
   }
 }
+.deliviery-location,.contact-blk,.Mail {
+  width: 50%;
+  float: left;
+  padding: 15px 0;
+}
+.track-order a {
+  background-color: #F5515C;
+  color: #FFF;
+  padding: 6px 15px;
+  display: inline-block;
+  border-radius: 20px;
+  margin: 9px 25px;
+}
+.Mail {
+  font-size: 13px;
+}
+.welcome {
+  padding: 15px 0px;
+  text-align: center;
+  color: #FEF200;
+}
+.Mail a {
+  color: #FFF;
+}
+.pre-header {
+  background-color: #000;
+  color: #FFF;
+}
+.deliviery-location a {
+  color: #FFF;
+}
