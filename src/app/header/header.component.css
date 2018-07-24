@@ -19,6 +19,20 @@
   border-color: rgb(111, 84, 153);
   color: rgb(255, 255, 255);
 }
+.nav>li>a>img {
+  max-width: none;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.navbar-inverse {
+  background-color: #FEF200;
+  border-color: #FEF200;
+  color: #000;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #F22430;
+  font-size: 24px;
+}
 .navbar.navbar-default .nav-collapse,
 .navbar.navbar-inverse .nav-collapse {
   height: auto !important;
@@ -32,7 +46,7 @@
 @media screen and (min-width: 767px) {
   .navbar-nav > li {
     float: left;
-    padding: 0 30px;
+    padding: 0 15px;
   }
   .nav.navbar-nav {
     display: table;
@@ -91,10 +105,45 @@
 .Mail a {
   color: #FFF;
 }
+.search-blk {
+  margin: 35px 0;
+}
+.search-btn {
+  background-color: #000;
+  color: #FFF;
+}
+.shopping-cart {
+  margin: 20px 0;
+  width: 200px;
+  float: left;
+}
+.logo-header {
+  background-color: #FBFBFB;
+}
+.search-btn:active, .search-btn:hover {
+  background-color: #FFEF00;
+  color: #000;
+  border-color: #FFEF00;
+}
+.cart_icon {
+  margin: 30px 0;
+  width: 50px;
+  font-size: 35px;
+  float: left;
+}
 .pre-header {
   background-color: #000;
   color: #FFF;
 }
 .deliviery-location a {
   color: #FFF;
+}
+.logo img:nth-child(2) {
+  width: 220px;
+  display: inline;
+  margin-left: 9px;
+}
+.logo img:nth-child(1) {
+  width: 105px;
+  display: inline;
 }
