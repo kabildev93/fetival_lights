@@ -7,13 +7,15 @@ import { HeaderComponent } from './header/header.component';
 import { RouterModule } from '@angular/router';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { HomeComponent } from './home/home.component';
+import { MiniCartComponent } from './mini-cart/mini-cart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     AboutUsComponent,
-    HomeComponent
+    HomeComponent,
+    MiniCartComponent
   ],
   imports: [
     BrowserModule,

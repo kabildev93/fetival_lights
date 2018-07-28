@@ -2,6 +2,7 @@
   padding: 0;
 }
 .navbar.navbar-inverse {border-radius: 0;}
+.navbar{margin-bottom: 0 !important;}
 .navbar-brand { position: relative; z-index: 2; }
 .navbar-nav.navbar-right .btn { position: relative; z-index: 2; padding: 4px 20px; margin: 10px auto; transition: transform 0.3s; }
 
@@ -24,6 +25,17 @@
   margin-right: 15px;
   vertical-align: middle;
 }
+.nav>li>a{
+  padding: 10px 5px;
+}
+ul.nav.navbar-nav li:last-child {
+  background: #000;
+  padding: 10px 5px;
+  color: #fff200;
+}
+ul.nav.navbar-nav li:last-child a {
+  color: #FDE36B;
+}
 .navbar-inverse {
   background-color: #FEF200;
   border-color: #FEF200;
@@ -31,7 +43,7 @@
 }
 .navbar-inverse .navbar-nav>li>a {
   color: #F22430;
-  font-size: 24px;
+  font-size: 18px;
 }
 .navbar.navbar-default .nav-collapse,
 .navbar.navbar-inverse .nav-collapse {
@@ -80,8 +92,13 @@
     transform: translate(0px,0px);
   }
 }
-.deliviery-location,.contact-blk,.Mail {
-  width: 50%;
+.deliviery-location {
+  width: 55%;
+  float: left;
+  padding: 15px 0;
+}
+.contact-blk,.Mail {
+  width: 45%;
   float: left;
   padding: 15px 0;
 }
@@ -91,7 +108,7 @@
   padding: 6px 15px;
   display: inline-block;
   border-radius: 20px;
-  margin: 9px 25px;
+  margin: 9px 8px;
 }
 .Mail {
   font-size: 13px;
@@ -101,6 +118,7 @@
   padding: 15px 0px;
   text-align: center;
   color: #FEF200;
+  font-family: 'Raleway', sans-serif !important;
 }
 .Mail a {
   color: #FFF;
@@ -134,6 +152,8 @@
 .pre-header {
   background-color: #000;
   color: #FFF;
+  font-family: 'Raleway', sans-serif !important;
+  padding: 5px 0px;
 }
 .deliviery-location a {
   color: #FFF;
@@ -146,4 +166,25 @@
 .logo img:nth-child(1) {
   width: 105px;
   display: inline;
+}
+.track-order {
+  width: 45%;
+  float: left;
+}
+.Mail {
+  width: 55% !important;
+}
+.appMiniCart {
+  width: 100%;
+  float: left;
+  margin: 32px 0px;
+}
+.search-blk input {
+  height: 50px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+button.btn.btn-default.search-btn {
+  height: 50px;
+  width: 50px;
 }
